@@ -1,0 +1,12 @@
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\bin\Debug\net8.0\RepositorioTurno.deps.json
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\bin\Debug\net8.0\RepositorioTurno.dll
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\bin\Debug\net8.0\RepositorioTurno.pdb
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.csproj.AssemblyReference.cache
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.AssemblyInfoInputs.cache
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.AssemblyInfo.cs
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.csproj.CoreCompileInputs.cache
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.dll
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\refint\RepositorioTurno.dll
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\RepositorioTurno.pdb
+C:\Users\marti\Desktop\TurnosProblema2.7 (1)\TurnosProblema2.7\RepositorioTurno\obj\Debug\net8.0\ref\RepositorioTurno.dll

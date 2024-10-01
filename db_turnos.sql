@@ -1,0 +1,286 @@
+USE [master]
+GO
+/****** Object:  Database [turnos_db]    Script Date: 30/09/2024 23:29:55 ******/
+CREATE DATABASE [turnos_db]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'turnos_db', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLNASHE\MSSQL\DATA\turnos_db.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'turnos_db_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL16.SQLNASHE\MSSQL\DATA\turnos_db_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT, LEDGER = OFF
+GO
+ALTER DATABASE [turnos_db] SET COMPATIBILITY_LEVEL = 160
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [turnos_db].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [turnos_db] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [turnos_db] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [turnos_db] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [turnos_db] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [turnos_db] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [turnos_db] SET AUTO_CLOSE ON 
+GO
+ALTER DATABASE [turnos_db] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [turnos_db] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [turnos_db] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [turnos_db] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [turnos_db] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [turnos_db] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [turnos_db] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [turnos_db] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [turnos_db] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [turnos_db] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [turnos_db] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [turnos_db] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [turnos_db] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [turnos_db] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [turnos_db] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [turnos_db] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [turnos_db] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [turnos_db] SET  MULTI_USER 
+GO
+ALTER DATABASE [turnos_db] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [turnos_db] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [turnos_db] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [turnos_db] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [turnos_db] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [turnos_db] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+ALTER DATABASE [turnos_db] SET QUERY_STORE = ON
+GO
+ALTER DATABASE [turnos_db] SET QUERY_STORE (OPERATION_MODE = READ_WRITE, CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 30), DATA_FLUSH_INTERVAL_SECONDS = 900, INTERVAL_LENGTH_MINUTES = 60, MAX_STORAGE_SIZE_MB = 1000, QUERY_CAPTURE_MODE = AUTO, SIZE_BASED_CLEANUP_MODE = AUTO, MAX_PLANS_PER_QUERY = 200, WAIT_STATS_CAPTURE_MODE = ON)
+GO
+USE [turnos_db]
+GO
+/****** Object:  Table [dbo].[T_DETALLES_TURNO]    Script Date: 30/09/2024 23:29:55 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[T_DETALLES_TURNO](
+	[id_turno] [int] NOT NULL,
+	[id_servicio] [int] NOT NULL,
+	[observaciones] [varchar](200) NULL,
+ CONSTRAINT [PK_T_DETALLES_TURNO] PRIMARY KEY CLUSTERED 
+(
+	[id_turno] ASC,
+	[id_servicio] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[T_SERVICIOS]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[T_SERVICIOS](
+	[id] [int] NOT NULL,
+	[nombre] [varchar](50) NOT NULL,
+	[costo] [int] NOT NULL,
+	[enPromocion] [varchar](1) NOT NULL,
+ CONSTRAINT [PK_T_SERVICIOS] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[T_TURNOS]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[T_TURNOS](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[fecha] [varchar](10) NULL,
+	[hora] [varchar](5) NULL,
+	[cliente] [varchar](100) NULL,
+ CONSTRAINT [PK_T_TURNOS] PRIMARY KEY CLUSTERED 
+(
+	[id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ACTUALIZAR_SERVICIO]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_ACTUALIZAR_SERVICIO] 
+@id int,
+@nombre varchar(50),
+@costo int,
+@enPromocion varchar(1)
+as
+update T_SERVICIOS set 
+nombre = @nombre, 
+costo = @costo, 
+enPromocion = @enPromocion
+where id = @id
+GO
+/****** Object:  StoredProcedure [dbo].[SP_CONSULTAR_SERVICIOS]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_CONSULTAR_SERVICIOS]
+AS
+BEGIN
+	
+	SELECT * from T_SERVICIOS ORDER BY 1;
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_CONTAR_TURNOS]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_CONTAR_TURNOS]
+    @fecha VARCHAR(10),
+    @hora VARCHAR(8),
+    @ctd_turnos INT OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT @ctd_turnos = COUNT(*)
+    FROM T_TURNOS
+    WHERE fecha = @fecha AND hora = @hora;
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[SP_ELIMINAR_SERVICIO]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_ELIMINAR_SERVICIO] 
+@id int
+as
+delete T_SERVICIOS where id = @id
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_DETALLES]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_INSERTAR_DETALLES] 
+	@id_turno int,
+	@id_servicio int, 
+	@observaciones varchar(200)
+AS
+BEGIN
+	INSERT INTO T_DETALLES_TURNO(id_turno,id_servicio, observaciones)
+    VALUES (@id_turno,@id_servicio, @observaciones);
+  
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_SERVICIO]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[SP_INSERTAR_SERVICIO] 
+@id int,
+@nombre varchar(50),
+@costo int,
+@enPromocion varchar(1)
+as
+insert into T_SERVICIOS (id, nombre, costo, enPromocion) values (@id, @nombre, @costo, @enPromocion)
+GO
+/****** Object:  StoredProcedure [dbo].[SP_INSERTAR_TURNO]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_INSERTAR_TURNO]
+    @fecha VARCHAR(10),
+    @hora VARCHAR(5),
+    @cliente VARCHAR(100),
+    @id_turno INT OUTPUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Insertar el nuevo turno
+    INSERT INTO T_TURNOS (fecha, hora, cliente)
+    VALUES (@fecha, @hora, @cliente);
+
+    -- Obtener el ID del nuevo turno
+    SET @id_turno = SCOPE_IDENTITY();
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_SERVICIO_FILTRADO]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_RECUPERAR_SERVICIO_FILTRADO]
+    @costo INT = NULL,
+    @enPromocion NVARCHAR(50) = NULL
+AS
+BEGIN
+    SELECT 
+        id, 
+        nombre, 
+        costo, 
+        enPromocion
+    FROM 
+        T_SERVICIOS
+    WHERE 
+        (@costo IS NULL OR costo = @costo)
+        AND (@enPromocion IS NULL OR enPromocion = @enPromocion);
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[SP_RECUPERAR_SERVICIO_POR_ID]    Script Date: 30/09/2024 23:29:56 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SP_RECUPERAR_SERVICIO_POR_ID]
+    @id INT
+AS
+BEGIN
+    SELECT 
+        id, 
+        nombre, 
+        costo, 
+        enPromocion
+    FROM 
+        T_SERVICIOS
+    WHERE 
+        id = @id;
+END;
+GO
+USE [master]
+GO
+ALTER DATABASE [turnos_db] SET  READ_WRITE 
+GO

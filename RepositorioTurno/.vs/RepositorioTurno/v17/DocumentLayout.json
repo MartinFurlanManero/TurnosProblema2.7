@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6643B9F4-54BC-4352-97F1-D2A32560D212}|..\\ApiTurno\\ApiTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\apiturno\\controllers\\servicioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\repositories\\implementacion\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:repositories\\implementacion\\serviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\utils\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:utils\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\services\\implementacion\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:services\\implementacion\\servicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\entities\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:entities\\servicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\services\\interfaces\\iservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:services\\interfaces\\iservicioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\services\\implementacion\\turnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:services\\implementacion\\turnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\repositories\\interfaces\\iturnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:repositories\\interfaces\\iturnorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\services\\interfaces\\iturnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:services\\interfaces\\iturnoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\repositories\\interfaces\\iserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:repositories\\interfaces\\iserviciorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6643B9F4-54BC-4352-97F1-D2A32560D212}|..\\ApiTurno\\ApiTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\apiturno\\apiturno.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\repositorioturno.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:repositorioturno.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\entities\\detalleturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:entities\\detalleturno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6643B9F4-54BC-4352-97F1-D2A32560D212}|..\\ApiTurno\\ApiTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\apiturno\\controllers\\turnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6643B9F4-54BC-4352-97F1-D2A32560D212}|..\\ApiTurno\\ApiTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\apiturno\\apiturno.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\utils\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:utils\\parametersql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|c:\\users\\marti\\desktop\\turnosproblema2.7 (1)\\turnosproblema2.7\\repositorioturno\\repositorioturno.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{627AF678-04D4-4A30-B717-265E906A0069}|RepositorioTurno.csproj|solutionrelative:repositorioturno.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Implementacion\\ServicioService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementacion\\ServicioService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Implementacion\\ServicioService.cs",
+              "RelativeToolTip": "Services\\Implementacion\\ServicioService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T00:50:11.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiciosController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\Controllers\\ServiciosController.cs",
+              "RelativeDocumentMoniker": "..\\ApiTurno\\Controllers\\ServiciosController.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\Controllers\\ServiciosController.cs",
+              "RelativeToolTip": "..\\ApiTurno\\Controllers\\ServiciosController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwIUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:53:08.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Servicio.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\Servicio.cs",
+              "RelativeDocumentMoniker": "Entities\\Servicio.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\Servicio.cs",
+              "RelativeToolTip": "Entities\\Servicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Implementacion\\ServicioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementacion\\ServicioRepository.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Implementacion\\ServicioRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementacion\\ServicioRepository.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwJEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:14:32.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Utils\\DataHelper.cs",
+              "RelativeDocumentMoniker": "Utils\\DataHelper.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Utils\\DataHelper.cs",
+              "RelativeToolTip": "Utils\\DataHelper.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServicioService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Interfaces\\IServicioService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IServicioService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Interfaces\\IServicioService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IServicioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T00:49:50.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurnoService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Implementacion\\TurnoService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementacion\\TurnoService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Implementacion\\TurnoService.cs",
+              "RelativeToolTip": "Services\\Implementacion\\TurnoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITurnoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Interfaces\\ITurnoRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ITurnoRepository.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Interfaces\\ITurnoRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ITurnoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITurnoService.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Interfaces\\ITurnoService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ITurnoService.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Services\\Interfaces\\ITurnoService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ITurnoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IServicioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Interfaces\\IServicioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IServicioRepository.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Repositories\\Interfaces\\IServicioRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IServicioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T23:05:51.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\Turno.cs",
+              "RelativeDocumentMoniker": "Entities\\Turno.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\Turno.cs",
+              "RelativeToolTip": "Entities\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetalleTurno.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\DetalleTurno.cs",
+              "RelativeDocumentMoniker": "Entities\\DetalleTurno.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Entities\\DetalleTurno.cs",
+              "RelativeToolTip": "Entities\\DetalleTurno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApiTurno.csproj",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\ApiTurno.csproj",
+              "RelativeDocumentMoniker": "..\\ApiTurno\\ApiTurno.csproj",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\ApiTurno.csproj",
+              "RelativeToolTip": "..\\ApiTurno\\ApiTurno.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T22:51:03.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TurnoController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\Controllers\\TurnoController.cs",
+              "RelativeDocumentMoniker": "..\\ApiTurno\\Controllers\\TurnoController.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\Controllers\\TurnoController.cs",
+              "RelativeToolTip": "..\\ApiTurno\\Controllers\\TurnoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RepositorioTurno",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\RepositorioTurno.csproj",
+              "RelativeDocumentMoniker": "RepositorioTurno.csproj",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\RepositorioTurno.csproj",
+              "RelativeToolTip": "RepositorioTurno.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T23:03:04.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiTurno",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\ApiTurno.csproj",
+              "RelativeDocumentMoniker": "..\\ApiTurno\\ApiTurno.csproj",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\ApiTurno\\ApiTurno.csproj",
+              "RelativeToolTip": "..\\ApiTurno\\ApiTurno.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T23:03:19.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ParameterSQL.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Utils\\ParameterSQL.cs",
+              "RelativeDocumentMoniker": "Utils\\ParameterSQL.cs",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\Utils\\ParameterSQL.cs",
+              "RelativeToolTip": "Utils\\ParameterSQL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T22:51:03.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepositorioTurno.csproj",
+              "DocumentMoniker": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\RepositorioTurno.csproj",
+              "RelativeDocumentMoniker": "RepositorioTurno.csproj",
+              "ToolTip": "C:\\Users\\marti\\Desktop\\TurnosProblema2.7 (1)\\TurnosProblema2.7\\RepositorioTurno\\RepositorioTurno.csproj",
+              "RelativeToolTip": "RepositorioTurno.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T22:51:03.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
